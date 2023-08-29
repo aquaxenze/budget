@@ -1,0 +1,108 @@
+#labelForisDateForgotten {
+    cursor: pointer;
+}
+
+.submit-animation {
+    transition: all 0.5s ease-in-out;
+}
+
+.shake-animation {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.transactionID {
+    width: 10%;
+}
+
+.purpose {
+    width: 25%;
+}
+
+.amount {
+    width: 5%;
+}
+
+#operation-header {
+    width: 10%;
+}
+
+#transactionTable {
+    height: 400px !important;
+    /* max-height: 400px !important; */
+    overflow-y: auto;
+
+}
+
+.amount-label {
+    font-weight: normal;
+}
+/* 
+@media screen and (max-width: 767px) {
+    .operation-col {
+        background-color: red !important;
+        display: none !important;
+    }
+} */
+
+
+@media screen and (max-width: 1265px) {
+
+    #periodSelect,
+    #monthsSelect {
+        width: 150px;
+    }
+}
+
+.checkBoxElements {
+    cursor: pointer !important;
+}
+
+#search {
+    text-align: left;
+    /* width: 250px; */
+}
+
+/* Media query for mobile devices with a maximum width of 768px */
+/* @media (max-width: 768px) {
+    #search::placeholder {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+} */
+
+/* #prevCash::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+} */
+#mpsd {
+    height: 100% !important;
+}
+.card-1 {
+    height: 100% !important;
+}
+
+#csvicon {
+    border: 2px solid rgb(108, 209, 90);
+}
